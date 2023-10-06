@@ -1,0 +1,15 @@
+body{
+    font-family: "Open Sans";
+}
+h2 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 3px solid black;
+}
