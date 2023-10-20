@@ -13,3 +13,23 @@ h2 {
     background-color: aliceblue;
     border: 3px solid black;
 }
+.grid{
+    margin: 0 auto;
+    max-width: 2440px;
+    padding: 20px
+    border-radius: 10px;
+    background_color: black;
+    border: 3px solid whitesmoke;
+}
+.celula{
+    width:75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: aliceblue;
+    
+}
