@@ -13,5 +13,20 @@ document.addEventListener ("click", (event) =>) {
  if (event.target.matches(".celula") && !jogoAcabou) {
     jogar(event.target.id);
  }
-};
+});
+function jogar(id) {
+ 
+ const celula = document.getElementById(id);
+
+ if (celula.textcontent === "") {
+
+  turno = checarturno ? JOGADOR_X : JOGADOR_O;
+
+  checarTurno = !checarTurno;
+ 
+  celula.textContent = turno;
+
+  celula.classList.add(turno)
+ }
+}
 
