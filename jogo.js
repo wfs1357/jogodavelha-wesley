@@ -27,6 +27,10 @@ function jogar(id) {
   celula.textContent = turno;
 
   celula.classList.add(turno)
+
+  celula.removeEventListener ("click", jogar);
+
+  verificarVencedor(turno);
  }
 }
 
