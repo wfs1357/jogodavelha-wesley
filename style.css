@@ -1,44 +1,45 @@
-body{
+body {
     font-family: "Open Sans";
-}
-h2 {
+    color: #fff;
+    background-color: #333;
+    }
+    
+    h2 {
     margin-top: -5px;
     text-align: center;
-}
-
-.container {
+    }
+    
+    .container {
     margin: 0 auto;
     max-width: 240px;
-    padding: 20px;
-    background-color: red;
-    border: 3px solid black;
-}
-.grid{
-    margin: 0 auto;
-    max-width: 240px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: black;
-    border: 3px solid whitesmoke;
-}
-.celula{
-    width:75px;
+    padding: 20px; background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    }
+    
+    .grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    }
+    
+    .celula {
+    width: 75px;
     height: 65px;
     font-size: 30pt;
     margin: 4px 2px;
     font-weight: 300;
-    padding-top: 10px;
-    border-radius: 3px;
+    border-radius:3px;
     text-align: center;
-    background-color: black;
-}
-.botao-recarregar{
+    background-color: rgb(114, 114, 114);
+    }
+    
+    .botao-recarregar{
     display: block;
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px 20px;
-    border: 2px solid black;
-    background-color: blue;
+    border: 2px solid whitesmoke;
+    background-color: #333;
     color: #fff;
     cursor: pointer;
-}
+    }
