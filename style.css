@@ -16,9 +16,9 @@ h2 {
 .grid{
     margin: 0 auto;
     max-width: 240px;
-    padding: 20px
+    padding: 20px;
     border-radius: 10px;
-    background_color: black;
+    background-color: black;
     border: 3px solid whitesmoke;
 }
 .celula{
